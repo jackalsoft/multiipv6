@@ -21,3 +21,7 @@ bash /root/install.sh 2600:3c06:e001:47<br>
 After installation dowload the file proxy.zip
 File structure: IP4:PORT:LOGIN:PASS
 You can use this online util to change proxy format as you like
+
+
+Finally allow the port ranges in firewall
+firewall-cmd --permanent --zone=public --add-port=10000-11000/tcp
