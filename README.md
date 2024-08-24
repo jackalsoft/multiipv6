@@ -9,7 +9,7 @@ yum -y install curl wget nano make
 
 wget https://raw.githubusercontent.com/jackalsoft/multiipv6/main/install.sh
 
-chmod +x /root/install.sh
+chmod +x /root/install.sh<br>
 bash /root/install.sh {IPV6Value}
 
 Example :
