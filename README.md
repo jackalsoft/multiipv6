@@ -23,5 +23,5 @@ File structure: IP4:PORT:LOGIN:PASS
 You can use this online util to change proxy format as you like
 
 
-Finally allow the port ranges in firewall
+Finally allow the port ranges in firewall<br>
 firewall-cmd --permanent --zone=public --add-port=10000-11000/tcp
