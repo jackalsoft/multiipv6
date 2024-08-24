@@ -29,4 +29,6 @@ increase ulimits<br>
 ulimit -n 10000<br>
 ulimit -Hn 10000<br>
 
-restart the server before connecting to proxy.
+restart the server and start 3proxy using command <br>
+/etc/init.d/3proxy start
+<br> before connecting to proxy.
