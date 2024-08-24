@@ -4,8 +4,8 @@ AlmaLinux8<br>
 Ipv6 /64
 
 First update ulimit<br>
-ulimit -n 10000
-ulimit -Hn 10000
+ulimit -n 10000<br>
+ulimit -Hn 10000<br>
 then restart, login again and do below steps
 <br>
 yum update -y<br>
