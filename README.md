@@ -4,12 +4,9 @@ AlmaLinux8<br>
 Ipv6 /64
 
 First update ulimit<br>
-vi /etc/security/limits.conf<br>
-add these two lines and restart the server<br>
-  \*  tsoft  nofile  65535<br>
-  \*  hard  nofile  65535
-
-then login again and do below steps
+ulimit -n 10000
+ulimit -Hn 10000
+then restart, login again and do below steps
 <br>
 yum update -y<br>
 yum -y install curl wget nano make<br>
