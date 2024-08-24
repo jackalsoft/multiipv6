@@ -1,8 +1,9 @@
-# multiipv6
+# Requirement
 
-AlmaLinux8
+AlmaLinux8<br>
 Ipv6 /64
 
+<br>
 yum update -y
 yum -y install curl wget nano make
 
@@ -13,9 +14,9 @@ bash /root/install.sh {IPV6Value}
 
 Example :
 IPV6Value can be taken from IPV6Range.
-Consider this IPV6Range 2600:3c06:e001:47::/64
-Only cut 4, : delimited range 2600:3c06:e001:47 and pass it as param. 
-bash /root/install.sh 2600:3c06:e001:47
+Consider this IPV6Range 2600:3c06:e001:47::/64<br>
+Only cut 4, : delimited range 2600:3c06:e001:47 and pass it as param. <br>
+bash /root/install.sh 2600:3c06:e001:47<br>
 
 After installation dowload the file proxy.zip
 File structure: IP4:PORT:LOGIN:PASS
