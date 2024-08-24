@@ -3,11 +3,6 @@
 AlmaLinux8<br>
 Ipv6 /64
 
-First update ulimit<br>
-ulimit -n 10000<br>
-ulimit -Hn 10000<br>
-then restart, login again and do below steps
-<br>
 yum update -y<br>
 yum -y install curl wget nano make<br>
 
@@ -29,3 +24,7 @@ You can use this online util to change proxy format as you like
 
 Finally allow the port ranges in firewall<br>
 firewall-cmd --permanent --zone=public --add-port=10000-11000/tcp
+
+increase ulimits<br>
+ulimit -n 10000<br>
+ulimit -Hn 10000<br>
