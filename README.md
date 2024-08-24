@@ -4,8 +4,8 @@ AlmaLinux8<br>
 Ipv6 /64
 
 <br>
-yum update -y
-yum -y install curl wget nano make
+yum update -y<br>
+yum -y install curl wget nano make<br>
 
 wget https://raw.githubusercontent.com/jackalsoft/multiipv6/main/install.sh
 
