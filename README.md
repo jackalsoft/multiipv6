@@ -28,3 +28,5 @@ firewall-cmd --permanent --zone=public --add-port=10000-11000/tcp
 increase ulimits<br>
 ulimit -n 10000<br>
 ulimit -Hn 10000<br>
+
+restart the server before connecting to proxy.
